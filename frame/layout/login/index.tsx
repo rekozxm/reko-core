@@ -6,7 +6,7 @@ import './index.less'
 import HeaderBar from '@component/header-bar'
 import FooterBar from '@component/footer-bar'
 import ToolSlot from '@component/tool-slot'
-
+import loginImg from '@assets/login.png'
 const { Content } = Layout
 interface FormValues {
   username: string
@@ -31,7 +31,7 @@ const LoginDom = () => {
       <Content className="zh-login-wrap">
         <div className="zh-login-wrap_main">
           <div className="zh-login-wrap_main_bg">
-            <img src="/frame/assets/login.png" />
+            <img src={loginImg} />
           </div>
           <Form
             className="zh-login-wrap_main_form ml30"

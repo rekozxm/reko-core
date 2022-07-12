@@ -18,14 +18,15 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@assets/*": ["app/assets/*"],
-      "@frame/*": ["app/frame/*"],
-      "@styles/*": ["app/styles/*"],
-      "@view/*": ["app/views/*"],
-      "@router": ["app/router"],
-      "@type/*": ["app/type/*"]
+      "~/*": ["./*"],
+      "@assets/*": ["frame/assets/*"],
+      "@styles/*": ["frame/styles/*"],
+      "@router": ["frame/router"],
+      "@types/*": ["frame/types/*"],
+      "@layout/*": ["frame/layout/*"],
+      "@atom/*": ["atom/*"]
     }
   },
-  "include": ["app/**/*.ts", "app/**/*.tsx"],
+  "include": ["frame/**/*.ts", "frame/**/*.tsx"],
   "exclude": ["node_modules", "**/node_modules/*"]
 }

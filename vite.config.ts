@@ -5,12 +5,13 @@ import { css, server, build, plugins } from './conf'
 export default defineConfig({
   resolve: {
     alias: {
-      "@assets": path.resolve(__dirname, './app/assets'),
-      "@frame": path.resolve(__dirname, './app/frame'),
-      "@styles": path.resolve(__dirname, './app/styles'),
-      "@router": path.resolve(__dirname, './app/router'),
-      "@type": path.resolve(__dirname, './app/type'),
-      "@view": path.resolve(__dirname, './app/views'),
+      "~": path.resolve(__dirname, './'),
+      "@assets": path.resolve(__dirname, './frame/assets'),
+      "@styles": path.resolve(__dirname, './frame/styles'),
+      "@router": path.resolve(__dirname, './frame/router'),
+      "@types": path.resolve(__dirname, './frame/types'),
+      "@layout": path.resolve(__dirname, './frame/layout'),
+      "@atom": path.resolve(__dirname, './atom'),
     },
   },
   css, plugins, server, build

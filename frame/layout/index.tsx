@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { BrowserRouter, useRoutes, RouteObject } from 'react-router-dom'
+import { BrowserRouter, useRoutes } from 'react-router-dom'
 import routers from '@router'
 
 const LayoutDom = () => {

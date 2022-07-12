@@ -1,19 +1,19 @@
 import { RouteObject } from 'react-router-dom'
-import ManageHome from '@layout/manage/home'
-import SelfHome from '@layout/self/home'
+import LoginWrap from '@layout/login'
+import WebWrap from '@layout/web'
 
 const route: RouteObject[] = [
   {
     path: '/',
-    element: <ManageHome />
+    element: <LoginWrap />
   },
   {
-    path: '/manage',
-    element: <ManageHome />
+    path: '/login',
+    element: <LoginWrap />
   },
   {
-    path: '/self',
-    element: <SelfHome />
+    path: '/web',
+    element: <WebWrap />
   }
 ]
 export default route

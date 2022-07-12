@@ -4,9 +4,11 @@ export const css = {
   preprocessorOptions: {
     less: {
       javascriptEnabled: true,
-      // modifyVars: {
-      //   hack: `true; @import (reference) "${path.resolve('app/styles/var.less')}";`,
-      // },
+      modifyVars: {
+        hack: `true; @import (reference) "${path.resolve(
+          'frame/styles/var.less'
+        )}";`
+      }
     }
   }
 }

@@ -23,6 +23,7 @@
       "@styles/*": ["frame/styles/*"],
       "@router": ["frame/router"],
       "@types/*": ["frame/types/*"],
+      "@component/*": ["frame/component/*"],
       "@layout/*": ["frame/layout/*"],
       "@atom/*": ["atom/*"]
     }

@@ -4,7 +4,7 @@ const FooterBar = () => {
   return (
     <>
       <Footer className="zh-login-footer pt12 pb12">
-        Copyright (c) 2022 Chus
+        Copyright (c) 2022 Reko
       </Footer>
     </>
   )

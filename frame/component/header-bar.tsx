@@ -18,7 +18,7 @@ const HeaderBar = (props: HeaderProps) => {
               src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
               alt="logo"
             />
-            <h1 className="ml12">Chus-Vite-React</h1>
+            <h1 className="ml12">Reko-Vite-React</h1>
           </div>
           {props.navSlot}
         </div>
